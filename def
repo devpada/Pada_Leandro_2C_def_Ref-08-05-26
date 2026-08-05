@@ -1,0 +1,39 @@
+# Write a fuction add (a, b) that returns the sum of a and b.
+# Then call it and print the result.
+
+def add (a, b):
+  return f" The Sum is,(a + b)!"
+
+print(add(15, 10))
+
+#OUTPUT
+    The Sum is, 40!
+
+
+# Write a function is_even(n) that return True if n is even, \
+# False otherwise. Test it with a few numbers.
+
+def is_even(n):
+      if  n % 2 == 0:
+        return f"(n) is Even, True"
+      else:
+        returnf"(n) is Odd, False"
+
+      print(is_even(10))
+
+#OUTPUT
+      10 is Even, True\
+
+
+#What's the difference between a function that RETURN a value
+
+def printer():
+  print("Hi")
+
+def returner():
+  return "Hi"
+
+print(returner() + "!")
+
+#OUTPUT
+    Hi!
