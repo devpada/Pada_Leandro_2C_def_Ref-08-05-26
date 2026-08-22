@@ -1,0 +1,22 @@
+import math
+
+print("--- Task 1: Angle Explorer ---")
+
+angle_degree = 60
+angle_radians = math.radians (angle_degree)
+
+print("Angle in radians:", f" {angle_radians: .4f}")
+print("sin ->", f"{math.sin (angle_radians): .4f}")
+print("cos ->", f"{math.cos (angle_radians): .4f}")
+print("tan ->", f"{math.tan (angle_radians): .4f}")
+
+print()
+
+
+#OUTPUT
+
+--- Task 1: Angle Explorer ---
+Angle in radians:   1.0472
+sin ->  0.8660
+cos ->  0.5000
+tan ->  1.7321
