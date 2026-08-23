@@ -1,0 +1,52 @@
+#code proper
+
+import math
+import random
+
+#Trigonometric Function
+#value of pi
+print("math.pi  ->, math.pi")
+
+#radians and degrees
+angle_in_radians = math.radians(45)
+print(f"math.radians(45) -> {angle_in_radians}")
+print(f"math.degreees({angle_in_radians:.4f})->{math.degrees(angle_in_radians)}")
+
+#sin,cos,tan
+print(f"math.sin(45 deg) -> {math.sin(angle_in_radians)}")
+print(f"math.cos(45 deg) -> {math.cos(angle_in_radians)}")
+print(f"math.tan(130 deg) -> {math.tan(angle_in_radians)}")
+
+#asin,acos,atan
+print(f"math.asin(0.5) -> {math.asin(0.5)} radians")
+print(f"math.acos(0.5) -> {math.acos(0.5)} radians")
+print(f"math.atan(0.5) -> {math.atan(0.5)} radians")
+
+#Hyperbolic Functions
+#sinh,cosh,tanh,asinh,acosh,atanh
+import math
+import random
+
+#hyperbolic sinh,cosh,tanh
+print(f"math.sinh(1.0) -> {math.sinh(1.0)}")
+print(f"math.cosh(1.0) -> {math.cosh(1.0)}")
+print(f"math.tanh(1.0) -> {math.tanh(1.0)}")
+
+#inverse hyperbolic asinh,acosh,atanh
+print(f"math.asinh(1.0) -> {math.asinh(1.0)}")
+print(f"math.acosh(1.5) -> {math.acosh(1.5)}")
+print(f"math.atanh(0.5) -> {math.atanh(0.5)}")
+
+#Exponential and Logarithmic Functions
+import math
+import random
+
+print("math.e ->, math.e")
+print(f"math.exp(1) -> {math.exp(1)}")
+print(f"math.expl(2) -> {math.exp(2)}")
+print(f"math.log(math.e) -> {math.log(math.e)}")
+print(f"math.log(8,2) -> {math.log(8,2)}")
+print(f"math.log10(1000) -> {math.log10(1000)}")
+print(f"math.log2(8) -> {math.log2(8)}")
+print(f"pow(2,10) -> {pow(2,10)}")
+print(f"math.pow(2,10) -> {math.pow(2,10)}")
